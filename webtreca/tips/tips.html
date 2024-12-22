@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <link rel="stylesheet" href="tips.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="/BookMaster-logo/BookMaster-logo3.png">
+                    <img src="/BookMaster-logo/BookMaster-logo3.png" width="13%" alt="logo">
+                </a>
+            </div>            <ul class="nav-links">
+                <li><a href="/home/index.html">Home</a></li>
+                <li><a href="tips.html"  class="active">Tips</a></li>
+                <li><a href="/aboutus/aboutus.html">About Us</a></li>
+                <li><a href="/contact/contact.html">Contact</a></li>
+                <li><a href="/login/login.html">Login</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a href="tips.html"><img src="/images/engflag.png" alt="English Flag" class="flag"></a>
+                <a href="tipssrp.html"><img src="/images/srbflag.png" alt="Serbian Flag" class="flag"></a>
+            </div>
+        </nav>
+
+
+
+        <section class="tips">
+            <h2>Writing Tips</h2>
+            
+            <!-- Postojeći saveti -->
+            <div id="tips-list">
+                <!-- Početni saveti -->
+                <div class="tip">
+                    <p><strong>Stephen King</strong> - "Write every day. The more you write, the better you get." - <span class="date">2024-12-14</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>J.K. Rowling</strong> - "Don’t worry about being good, just start writing." - <span class="date">2024-12-13</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Mark Twain</strong> - "The secret of getting ahead is getting started." - <span class="date">2024-12-12</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>George Orwell</strong> - "Good writing is like a window pane." - <span class="date">2024-12-11</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Ernest Hemingway</strong> - "There is nothing to writing. All you do is sit down at a typewriter and bleed." - <span class="date">2024-12-10</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Agatha Christie</strong> - "The best time for planning a book is while you're doing the dishes." - <span class="date">2024-12-09</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>William Faulkner</strong> - "I only write when I am inspired, and I see to it that I am inspired at nine o’clock every morning." - <span class="date">2024-12-08</span></p>
+                </div>
+            </div>
+        
+            <!-- Form for adding new tips -->
+            <form id="tip-form">
+                <input type="text" id="tip-author" placeholder="Your name" required>
+                <textarea id="tip-text" placeholder="Enter your tip here..." required></textarea>
+                <button type="button" onclick="saveTip()">Submit Tip</button>
+            </form>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <p>&copy; 2024 BookMaster. All rights reserved</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+        
+        <script src="tips.js"></script>
+    </body>
+    </html>

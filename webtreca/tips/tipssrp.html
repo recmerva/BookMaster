@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveti</title>
+    <link rel="stylesheet" href="tips.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="/BookMaster-logo/BookMaster-logo3.png">
+                    <img src="/BookMaster-logo/BookMaster-logo3.png" width="13%" alt="logo">
+                </a>
+            </div>
+                <ul class="nav-links">
+                <li><a href="/home/indexsrp.html">Početna</a></li>
+                <li><a href="/tips/tipssrp.html"  class="active">Saveti</a></li>
+                <li><a href="/aboutus/aboutussrp.html">O nama</a></li>
+                <li><a href="/contact/contactsrp.html">Kontakt</a></li>
+                <li><a href="/login/loginsrp.html">Prijava</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a href="tips.html"><img src="/images/engflag.png" alt="English Flag" class="flag"></a>
+                <a href="tipssrp.html"><img src="/images/srbflag.png" alt="Serbian Flag" class="flag"></a>
+            </div>
+        </nav>
+
+        <section class="tips">
+            <h2>Saveti za Pisanje</h2>
+            
+            <!-- Postojeći saveti -->
+            <div id="tips-list">
+                <!-- Početni saveti -->
+                <div class="tip">
+                    <p><strong>Stephen King</strong> - "Pišite svaki dan. Što više pišete, to ćete biti bolji." - <span class="date">2024-12-14</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>J.K. Rowling</strong> - "Ne brinite o tome da budete dobri, samo počnite da pišete." - <span class="date">2024-12-13</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Mark Twain</strong> - "Tajna napredovanja je u tome da se počne." - <span class="date">2024-12-12</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>George Orwell</strong> - "Dobro pisanje je poput staklenog prozora." - <span class="date">2024-12-11</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Ernest Hemingway</strong> - "Nema ničega u pisanju. Sve što treba da uradite je da sednete za mašinu za pisanje i krvarite." - <span class="date">2024-12-10</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>Agatha Christie</strong> - "Najbolje vreme za planiranje knjige je dok perete sudove." - <span class="date">2024-12-09</span></p>
+                </div>
+                <div class="tip">
+                    <p><strong>William Faulkner</strong> - "Pišem samo kada sam inspirisan, i brinem da budem inspirisan svakog jutra u devet." - <span class="date">2024-12-08</span></p>
+                </div>
+            </div>
+        
+            <!-- Forma za dodavanje novih saveta -->
+            <form id="tip-form">
+                <input type="text" id="tip-author" placeholder="Vaše ime" required>
+                <textarea id="tip-text" placeholder="Unesite vaš savet ovde..." required></textarea>
+                <button type="button" onclick="saveTip()">Pošaljite savet</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 BookMaster. Sva prava zadržana</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+        
+        <script src="tips.js"></script>
+    </body>
+</html>
