@@ -1,0 +1,291 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* Body & Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+}
+/* Header Section */
+header {
+    background: #1e2a38;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* .logo-container {
+    /* margin-right: auto; Postavlja logo skroz levo */
+ 
+
+.logo-container img {
+    display: block;
+    width: 120px;
+    position: relative;
+    left: -70px;
+    bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 93px;
+    margin-top: -6px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;
+}
+.nav-links a.active {
+    color: #f1c40f; 
+    /* font-weight: bold;*/
+    /* text-decoration: underline; */
+}
+
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 9px;
+}
+
+.language-switcher .flag {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.language-switcher .flag:hover {
+    transform: scale(1.1);
+}
+
+/* About Cards Section */
+.about-cards {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(241, 196, 15, 0.6);
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+
+/* Footer Styling */
+footer {
+    background: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Footer Social Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+}
+
+
+
+
+
+/* About Users Section */
+.about-users {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-users h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-users .users-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.users-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.user-feature {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    min-width: 280px;
+    box-shadow: 0 6px 15px rgba(241, 196, 15, 0.3);  /* Senka u boji #f1c40f sa 30% prozirnosti */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(241, 196, 15, 0.5);  /* Jača senka pri hover-u */
+}
+
+
+.user-feature i {
+    font-size: 40px;
+    color: #f1c40f;
+    margin-bottom: 15px;
+}
+
+.user-feature h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.user-feature p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .users-grid {
+        flex-direction: column;
+    }
+
+    .user-feature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.about-users .users-intro {
+    font-size: 16px;  
+}
+
+.user-feature h3 {
+    font-size: 22px; 
+}
+
+.user-feature p {
+    font-size: 14px;  
+}
+
+.about-users h2 {
+    font-size: 34px; 
+}
+

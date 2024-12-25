@@ -1,0 +1,282 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* Body & Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+}
+/* Header Section */
+header {
+    background: #1e2a38;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* .logo-container {
+    /* margin-right: auto; Postavlja logo skroz levo */
+ 
+
+.logo-container img {
+    display: block;
+    width: 120px;
+    position: relative;
+    left: -70px;
+    bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 93px;
+    margin-top: -6px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;
+}
+.nav-links a.active {
+    color: #f1c40f; 
+    /* font-weight: bold;*/
+    /* text-decoration: underline; */
+}
+
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 9px;
+}
+
+.language-switcher .flag {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.language-switcher .flag:hover {
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #34495e, #2c3e50);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #d4af37;
+}
+
+/* New Sections: Welcome & Testimonials */
+.intro {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    background: #ecf0f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.testimonial-box {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-box p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Tips Section */
+.tips {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.tip-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tip-box h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.tip-box p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .tips {
+        flex-direction: column;
+    }
+
+    .tip-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Footer Social Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+}
+
+
+
+.hero .btn-get-started {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Bez podvlačenja teksta */
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero .btn-get-started:hover {
+    background-color:  #d9ae00; /* Boja na hover */
+    transform: scale(1.05); /* Blago povećanje na hover */
+}
