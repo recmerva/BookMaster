@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <link rel="stylesheet" href="tips.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="/BookMaster-logo/BookMaster-logo3.png">
+                    <img src="/BookMaster-logo/BookMaster-logo3.png" width="13%" alt="logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/home/indexsrp.html">Početna</a></li>
+                <li><a href="tipssrp.html" class="active">Saveti</a></li>
+                <li><a href="/aboutus/aboutussrp.html">O nama</a></li>
+                <li><a href="/contact/contactsrp.html">Kontakt</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a href="tips.html"><img src="/images/engflag.png" alt="English Flag" class="flag"></a>
+                <a href="tipssrp.html"><img src="/images/srbflag.png" alt="Serbian Flag" class="flag"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding: 40px 20px; background-color: #1e2a38;">
+        <section id="advice-section" style="max-width: 700px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px;">
+            <h1 style="text-align: center; color: #1e2a38;">Saveti za pisanje</h1>
+    
+            <div style="text-align: center; margin-bottom: 20px;">
+                <button id="random-tip-btn"
+                        style="background-color: #f1c40f; color: #1e2a38; padding: 10px 20px; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer;">
+                    Prikaži rendom savet
+                </button>
+            </div>
+    
+            <div id="random-tip-display" class="tip-card" style="display: none; background-color: #fff9dc; border-left: 5px solid #f1c40f;"></div>
+    
+            <div id="tips-container">
+                <!-- All tips will be loaded here -->
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 BookMaster. Sva prava zadržana</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="tips.js"></script>
+</body>
+</html>
