@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@ html, body{
     padding: 0;
     overflow-x: hidden;
 }
-/* Body & Basic Styles */
+/* ceo */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -18,17 +17,13 @@ body {
     color: #333;
     font-size: 16px;
 }
-/* Header Section */
+/* Header */
 header {
     background: #1e2a38;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
-
-/* .logo-container {
-    /* margin-right: auto; Postavlja logo skroz levo */
- 
 
 .logo-container img {
     display: block;
@@ -76,7 +71,7 @@ nav .logo {
 }
 
 
-/* Language Switcher */
+/* jezici */
 .language-switcher {
     display: flex;
     align-items: center;
@@ -96,7 +91,8 @@ nav .logo {
 .language-switcher .flag:hover {
     transform: scale(1.1);
 }
-/* Footer Styling */
+
+/* Footer */
 footer {
     background: #1e2a38;
     color: white;
@@ -108,7 +104,7 @@ footer p {
     font-size: 14px;
 }
 
-/* Footer Social Icons */
+/*  ikonice ig fb tw  */
 .social-icons {
     margin-top: 10px;
 }
@@ -124,16 +120,15 @@ footer p {
     color: #f1c40f;
 }
 
-/* Success Message Container */
+/* Poruka */
 .success-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ecf0f1 /* Semi-transparent background */
+    background-color: #ecf0f1 
 }
 
-/* Success Message Box */
 .success-message {
     background-color: #2e4053;
     color: white;
@@ -145,19 +140,17 @@ footer p {
     box-shadow: 0 4px 6px rgba(189, 110, 110, 0.1);
 }
 
-/* Heading Style */
 .success-message h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-/* Paragraph Style */
 .success-message p {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-/* Button Style */
+/* Button */
 .success-message button {
     background-color: #fff;
     color: #2e4053;
@@ -169,7 +162,6 @@ footer p {
     transition: background-color 0.3s ease;
 }
 
-/* Button Hover Effect */
 .success-message button:hover {
     background-color: #f1c40f;
     color: white;

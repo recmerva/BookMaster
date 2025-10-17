@@ -1,3 +1,3 @@
 function redirectToHome() {
-    window.location.href = '../home/indexsrp.html';
+    window.location.href = '../home/pocetnasrb.html';
 }

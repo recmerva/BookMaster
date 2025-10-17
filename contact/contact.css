@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@ html, body{
     padding: 0;
     overflow-x: hidden;
 }
-/* Body & Basic Styles */
+/* ceo */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -18,16 +17,13 @@ body {
     color: #333;
     font-size: 16px;
 }
-/* Header Section */
+/* Header */
 header {
     background: #1e2a38;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
-
-/* .logo-container {
-    /* margin-right: auto; Postavlja logo skroz levo */
  
 
 .logo-container img {
@@ -76,11 +72,9 @@ nav .logo {
 }
 .nav-links a.active {
     color: #f1c40f; 
-    /* font-weight: bold;*/
-    /* text-decoration: underline; */
 }
 
-/* Language Switcher */
+/* jezici */
 .language-switcher {
     display: flex;
     align-items: center;
@@ -148,14 +142,14 @@ nav .logo {
     display: none; 
 }
 a.btn {
-    display: inline-block; /* Pretvara link u blok sa mogućnostima dugmeta */
+    display: inline-block; 
     width: 100%;
     padding: 12px;
     background-color: #f1c40f;
     color: #fff;
     font-size: 16px;
     text-align: center;
-    text-decoration: none; /* Uklanja podvlačenje linka */
+    text-decoration: none; 
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -165,7 +159,7 @@ a.btn:hover {
     background-color: #1e2a38;
 }
 
-/* Success poruka ostaje ista */
+/* Success poruka */
 .success-message {
     margin-top: 20px;
     color: #5cb85c;
@@ -175,7 +169,7 @@ a.btn:hover {
 }
 
 
-/* Footer Styling */
+/* Footer */
 footer {
     background: #1e2a38;
     color: white;
@@ -187,7 +181,7 @@ footer p {
     font-size: 14px;
 }
 
-/* Footer Social Icons */
+/* ikonice ig fb tw */
 .social-icons {
     margin-top: 10px;
 }
